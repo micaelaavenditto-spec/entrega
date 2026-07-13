@@ -1,0 +1,237 @@
+﻿<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Venzo Amphion</title>
+    <meta name="description" content="Landing page para Venzo Amphion con grilla editorial e interaccion tipografica.">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Venzo Amphion inicio">
+        <img class="logo logo-light" src="Logo blanco Venzo.png" alt="Venzo">
+        <img class="logo logo-dark" src="Logo negro Venzo.png" alt="">
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#sistema">Tecnología</a>
+        <a href="#modelos">Detalles</a>
+        <a href="#modelos">Accesorios</a>
+        <a href="#modelos">Team Venzo</a>
+        <a href="#prueba">Contacto</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero grid-shell" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Nueva generación urbana</p>
+          <h1 id="hero-title">AMPHION</h1>
+          <p class="hero-text">No naciste para quedarte en el camino.</p>
+        </div>
+        <div class="hero-lower">
+          <p class="hero-subtitle">Estamos para acompañarte cuando el terreno se vuelve desafiante y en cada momento de tu vida.</p>
+          <div class="actions">
+            <a class="button primary" href="#modelos">Explorar</a>
+            <a class="button ghost" href="#prueba">Test ride</a>
+          </div>
+        </div>
+        <figure class="hero-media">
+          <img src="imagen_ciudad.png" alt="Ciclista Venzo en ciudad">
+        </figure>
+        <div class="hero-spec spec-one">
+          <span>PRECIO AMIGO</span>
+          <strong>$690.000</strong>
+          <p>sugerido al público</p>
+        </div>
+        <div class="hero-spec spec-two">
+          <span>RODÁ SIN LÍMITES</span>
+          <strong>27 <span class="speed-label">velocidades</span></strong>
+          <p class="nowrap">preparada para la aventura</p>
+        </div>
+      </section>
+
+      <section class="ticker" aria-label="Caracteristicas destacadas" aria-live="off">
+        <div class="ticker-track" aria-hidden="true">
+          <span>CUADRO DE ALUMINIO</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>RODADO 29</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>SUSPENSIÓN CON BLOQUEO</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>27 VELOCIDADES</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>CUADRO DE ALUMINIO</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>RODADO 29</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>SUSPENSIÓN CON BLOQUEO</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+          <span>27 VELOCIDADES</span>
+          <span class="ticker-sep" aria-hidden="true">—</span>
+        </div>
+      </section>
+
+      <section class="kinetic-section" id="sistema">
+        <div class="kinetic-inner">
+          <div class="kinetic-text">
+            <p class="eyebrow">Tecnología</p>
+            <h2 class="kinetic-title" data-kinetic>Una bicicleta que se adapta a tus necesidades.</h2>
+          </div>
+          <div class="bike-diagram">
+
+            <!-- Carrusel de imágenes -->
+            <div class="bike-carousel">
+              <img class="bike-slide active" src="venzo_png.png"    alt="Venzo Amphion rosa">
+              <img class="bike-slide"        src="venzo_negro.png"  alt="Venzo Amphion negro">
+              <img class="bike-slide"        src="venzo_verde.png"  alt="Venzo Amphion verde">
+            </div>
+
+            <!-- Flechas -->
+            <button class="bike-arrow bike-arrow-prev" aria-label="Color anterior">&#8592;</button>
+            <button class="bike-arrow bike-arrow-next" aria-label="Color siguiente">&#8594;</button>
+
+            <!-- Indicadores de color -->
+            <div class="bike-colors">
+              <button class="color-dot active" data-index="0" style="background:#e040a0;" aria-label="Rosa"></button>
+              <button class="color-dot"        data-index="1" style="background:#555;"    aria-label="Gris"></button>
+              <button class="color-dot"        data-index="2" style="background:#aadd00;" aria-label="Verde"></button>
+            </div>
+
+            <!-- Puntos técnicos (siempre encima) -->
+            <div class="bike-point" style="top: 40.8%; left: 89.9%;" data-label="A">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Llantas Rodado 29</strong>
+                <ul>
+                  <li>Mantienen mejor la velocidad.</li>
+                  <li>Pasan obstáculos con más facilidad.</li>
+                  <li>Dan más estabilidad en caminos irregulares.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 22.1%; left: 55.7%;" data-label="B">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Suspensión de alta gama</strong>
+                <ul>
+                  <li>Ajustable según el peso del ciclista.</li>
+                  <li>Dirección más precisa.</li>
+                  <li>Absorbe los impactos del camino.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 61.1%; left: 51.7%;" data-label="C">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Frenos hidráulicos Shimano</strong>
+                <ul>
+                  <li>Frenadas más cortas.</li>
+                  <li>Más control en bajadas.</li>
+                  <li>Más seguridad en situaciones imprevistas.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="bike-point" style="top: 41.5%; left: 40.7%;" data-label="D">
+              <div class="point-ring"></div>
+              <div class="point-dot"></div>
+              <div class="point-tooltip">
+                <strong>Cuadro de aluminio</strong>
+                <ul>
+                  <li>Reduce el peso total de la bicicleta.</li>
+                  <li>Mayor durabilidad.</li>
+                  <li>Responde más rápido.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="product-grid" id="modelos" aria-label="Modelos Venzo Amphion">
+        <article class="product-card featured">
+          <div>
+            <p class="eyebrow">Team Venzo</p>
+            <h2>Sumate al equipo.</h2>
+          </div>
+          <div class="team-carousel">
+            <button class="team-arrow team-arrow-prev" aria-label="Foto anterior">&#8592;</button>
+            <img class="team-slide" src="team_1.png" alt="Team Venzo rider 1">
+            <img class="team-slide" src="team_2.png" alt="Team Venzo rider 2">
+            <img class="team-slide" src="team_3.png" alt="Team Venzo rider 3">
+            <img class="team-slide" src="team_4.png" alt="Team Venzo rider 4">
+            <button class="team-arrow team-arrow-next" aria-label="Foto siguiente">&#8594;</button>
+          </div>
+        </article>
+        <article class="product-card dark">
+          <div>
+            <p class="eyebrow">Amphion ST</p>
+            <h2>Comodidad de acceso bajo.</h2>
+          </div>
+          <img src="https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&w=1400&q=85" alt="Detalle de bicicleta urbana en exterior">
+          <a href="#prueba">Ver modelo</a>
+        </article>
+        <article class="feature-card">
+          <span>01</span>
+          <h3>Respuesta instantánea</h3>
+          <p>El sensor de torque ajusta la asistencia en cada salida, subida y frenada.</p>
+        </article>
+        <article class="feature-card">
+          <span>02</span>
+          <h3>Seguridad siempre activa</h3>
+          <p>Bloqueo automático, alerta de movimiento y ubicación en tiempo real.</p>
+        </article>
+      </section>
+
+      <section class="detail-band">
+        <div>
+          <p class="eyebrow">Conocé los detalles</p>
+          <h2>Hacemos posible la aventura.</h2>
+        </div>
+        <ul class="tech-list">
+          <li><span>Carga</span><strong>3.5 h</strong></li>
+          <li><span>Peso</span><strong>18 kg</strong></li>
+          <li><span>Asistencia</span><strong>25 km/h</strong></li>
+          <li><span>Garantía</span><strong>3 años</strong></li>
+        </ul>
+      </section>
+
+      <section class="test-ride" id="prueba">
+        <div>
+          <p class="eyebrow">Test ride</p>
+          <h2>Probala en tu ciudad.</h2>
+        </div>
+        <form class="ride-form">
+          <label>
+            <span>Nombre</span>
+            <input type="text" name="name" autocomplete="name" placeholder="Tu nombre">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" placeholder="tu@email.com">
+          </label>
+          <button type="submit">Reservar prueba</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
